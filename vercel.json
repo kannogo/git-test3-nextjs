@@ -6,11 +6,10 @@
       "use": "@vercel/node"
     }
   ],
-  "env": {
-    "CI": "false"
-  },
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
-  ]
+  ],
+  "env": {
+    "CI": "false"
+  }
 }
-  
